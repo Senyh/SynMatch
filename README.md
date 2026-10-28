@@ -2,7 +2,7 @@
 
 This repo is the PyTorch implementation for the paper:
 
-**["SynMatch: Rethinking Consistency in Medical Image Segmentation with Sparse Annotations"](https://)** 
+**["SynMatch: Rethinking Consistency in Medical Image Segmentation with Sparse Annotations"](https://www.sciencedirect.com/science/article/pii/S0893608026012517)** 
 
 ## Usage
 
@@ -34,7 +34,7 @@ _PS: We highly encourage future efforts toward providing higher-quality scribble
 
 
 #### 1.3. Split Dataset
-Follow the list files (within the `data` folders) to split the datasets
+Follow the list files (within the `data` folder) to split the datasets
 
 ### 2. Training
 ```angular2html
@@ -50,7 +50,15 @@ python eval.py
 ## Citation
 If you find this project useful, please consider citing:
 ```
-
+@article{shen2026synmatch,
+  title={SynMatch: Rethinking Consistency in Medical Image Segmentation with Sparse Annotations},
+  author={Shen, Zhiqiang and Cao, Peng and Liu, Xiaoli and Yang, Jinzhu and Zaiane, Osmar R},
+  journal={Neural Networks},
+  volume={206},
+  pages={109796},
+  year={2027},
+  publisher={Elsevier}
+}
 ```
 
 
